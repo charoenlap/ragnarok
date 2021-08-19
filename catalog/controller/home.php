@@ -10,6 +10,8 @@
 	    		'assets/home.css'
 	    	);
 	    	$data['style'] 	= $style;
+	    	$data['title'] = "Ragnarok - Calculate Boss Central Laboratory"
+	    	$data['descreption'] = "คำนวนเลขฐานสอง บอกรายละเอียดบอส"
 	    	// 1087 Orc Hero
 	    	// 1190 Orc Lord
 

@@ -37,13 +37,13 @@
 	define('ROW_IN_DOC','10');
 	define('BYTE_PER_KB','1000');
 	 
-	define('app_id','166994808024757');
-	define('app_secret','b0bf73fa492cfd8b4d0125eeda9d5e51');
-	define('default_graph_version','v2.10');
+	// define('app_id','166994808024757');
+	// define('app_secret','b0bf73fa492cfd8b4d0125eeda9d5e51');
+	// define('default_graph_version','v2.10');
 
-	define('GOOGLE_CLIENT_ID', '310104410325-k5ufrsold5trpadn00c424vidtqc2lpt.apps.googleusercontent.com');
-	define('GOOGLE_CLIENT_SECRET', 'k-mfqWUZaQoL5r-rpu9NM1fP');
-	define('GOOGLE_REDIRECT_URL', MURL.'index.php?route=user/gmailCallback');
+	// define('GOOGLE_CLIENT_ID', '310104410325-k5ufrsold5trpadn00c424vidtqc2lpt.apps.googleusercontent.com');
+	// define('GOOGLE_CLIENT_SECRET', 'k-mfqWUZaQoL5r-rpu9NM1fP');
+	// define('GOOGLE_REDIRECT_URL', MURL.'index.php?route=user/gmailCallback');
 
 	define('DEFAULT_PAGE','home');
 	define('WEB_NAME','');
@@ -66,12 +66,12 @@
 	define('DEFAULT_LIMIT_PAGE','10');
 
 	// email ssl
-	define('email_username','support@fsoftpro.com');
-	define('email_password','fiverama2');
-	define('email_host','smtp.gmail.com');
-	define('email_port','465');
-	define('email_send','support@fsoftpro.com');
-	define('email_stmpsecure','ssl');
+	// define('email_username','support@fsoftpro.com');
+	// define('email_password','fiverama2');
+	// define('email_host','smtp.gmail.com');
+	// define('email_port','465');
+	// define('email_send','support@fsoftpro.com');
+	// define('email_stmpsecure','ssl');
 
 	// email tls
 	// define('email_username','');

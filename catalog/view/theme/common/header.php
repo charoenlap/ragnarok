@@ -1,4 +1,4 @@
-<?php $description = 'ระบบจัดการ ลดขั้นตอนการทำงาน ของบริษัท ทำบริษัทให้ขยาย เติบโตแบบมีคุณภาพ ต้องใช้โปรแกรม ที่มีคุณภาพ รองรับฟังก์ชั่นการใช้งาน อย่างครบถ้วน'; ?>
+<?php $description = ''; ?>
 <!DOCTYPE html>
 <html class="no-js css-menubar" lang="en">
 <head>
@@ -11,7 +11,7 @@
     <meta name="Description" CONTENT="<?php echo $description;?>">
     <meta name="description" content="<?php echo $description;?>">
     <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
-    <title>RFQ Store - บัญชี, เอกสารออนไลน์, POS</title>
+    <title>Ragnarok</title>
     <meta name="author" content="">
 
 
@@ -36,32 +36,6 @@
   foreach ($script as $key => $value) { ?>
     <script src="<?php echo $value;?>"></script>
   <?php } } ?>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172956143-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-172956143-1');
-</script>
-<!-- Global site tag (gtag.js) - Google Ads: 967008138 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-967008138"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-967008138');
-</script>
-
-<!-- Event snippet for Website sale conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-967008138/CP7YCKrfiNgBEIq_jc0D',
-      'transaction_id': ''
-  });
-</script>
 
 </head>
 <body class="<?php echo (isset($class_body)?$class_body:''); ?>">
