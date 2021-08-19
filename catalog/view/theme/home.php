@@ -17,14 +17,14 @@
 					<td>8</td>
 				</tr>
 				<tr>
-					<td><span id="result1"></span></td>
-					<td><span id="result2"></span></td>
-					<td><span id="result3"></span></td>
-					<td><span id="result4"></span></td>
-					<td><span id="result5"></span></td>
-					<td><span id="result6"></span></td>
-					<td><span id="result7"></span></td>
-					<td><span id="result8"></span></td>
+					<td><span id="result1">-</span></td>
+					<td><span id="result2">-</span></td>
+					<td><span id="result3">-</span></td>
+					<td><span id="result4">-</span></td>
+					<td><span id="result5">-</span></td>
+					<td><span id="result6">-</span></td>
+					<td><span id="result7">-</span></td>
+					<td><span id="result8">-</span></td>
 				</tr>
 			</table>
 
