@@ -12,11 +12,11 @@
 		// Config DB SERVER
 		define('PREFIX', 'com_');
 		define('DB_HOST','localhost');
-		define('DB_USER','rfqstore_com');
-		define('DB_PASS','O78rpdgje');
-		define('DB_DB','rfqstore_com');
+		define('DB_USER','charoenlap_ro');
+		define('DB_PASS','V0ILSEEHH');
+		define('DB_DB','charoenlap_ro');
 		define('DOCUMENT_ROOT',$_SERVER['DOCUMENT_ROOT'].'/');
-		define('MURL','https://rfqstore.com/');
+		define('MURL','https://ro.charoenlap.com/');
 	}else{
 		// Config DB localhost
 		define('PREFIX', 'com_');
