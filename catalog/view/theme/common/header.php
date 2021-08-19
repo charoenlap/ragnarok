@@ -36,7 +36,15 @@
   foreach ($script as $key => $value) { ?>
     <script src="<?php echo $value;?>"></script>
   <?php } } ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D93XTCVSR1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-D93XTCVSR1');
+</script>
 </head>
 <body class="<?php echo (isset($class_body)?$class_body:''); ?>">
 <!--[if lt IE 8]>
