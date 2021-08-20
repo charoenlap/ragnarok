@@ -7,7 +7,7 @@
 	</div>
 	<div class="row mt-4">
 		<div class="col-2">
-			<input type="radio" class="rdo" name="rdoLV" id="r1" value="0" checked><labr1el for="">อาวุธเวล 4,เกราะ </label>
+			<input type="radio" class="rdo" name="rdoLV" id="r1" value="0" checked><labr1el for="r1">อาวุธเวล 4,เกราะ </label>
 		</div>
 		<div class="col-2">
 			<input type="radio" class="rdo" name="rdoLV" id="r2" value="1"><label for="r2">อาวุธเวล 3 </label>
@@ -94,7 +94,7 @@
 		</div>
 		<div class="col-2">
 			ความเร็วในการตี
-			<input type="text" id="delay" class="form-control" value="10" placeholder="ความเร็วในการตี">
+			<input type="text" id="delay" class="form-control" value="1000" placeholder="ความเร็วในการตี">
 		</div>
 		<div class="col-6">
 			&nbsp;
