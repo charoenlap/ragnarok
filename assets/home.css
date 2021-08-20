@@ -1,3 +1,9 @@
+.table.table-bordered.table-striped tr:first-child td{
+  background:transparent;
+}
+.table.table-bordered.table-striped tr td{
+  background:#fff;
+}
 .card img {  
       position: absolute;
       opacity: 0.3;

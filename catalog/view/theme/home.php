@@ -1,15 +1,16 @@
 <div class="container">
-	<div class="row mt-4">
-		<div class="col-12 col-md-6">
-			<div>ช่องใส่ตัวเลขเพื่อถอดรหัส</div>
-			<input type="text" value="" class="form-control" id="input" placeholder="">
+	<div class="row pt-4 pb-3" style="background:url('uploads/bg.jpg');
+	background-repeat: no-repeat;background-position: center center;background-size:cover;">
+		<div class="col-12 col-md-3">
+			<div class="text-warning"><b>ช่องใส่ตัวเลขเพื่อถอดรหัส</b></div>
+			<input type="text" value="" class="form-control" id="input" placeholder="ใส่ตัวเลขที่นี่">
 			<div class="text-right">
-				<input type="button" class="btn btn-primary" id="btn-cal" value="คำนวน">
+				<input type="button" class="btn btn-primary btn-block" id="btn-cal" value="คำนวน">
 			</div>
 		</div>
-		<div class="col-12 col-md-6">
-			<table class="table table-bordered table-striped">
-				<tr>
+		<div class="col-12 col-md-9">
+			<table class="table table-bordered table-striped ">
+				<tr class="text-warning text-center">
 					<td>1</td>
 					<td>2</td>
 					<td>3</td>
@@ -19,7 +20,7 @@
 					<td>7</td>
 					<td>8</td>
 				</tr>
-				<tr>
+				<tr class="text-center">
 					<td><span id="result1">-</span></td>
 					<td><span id="result2">-</span></td>
 					<td><span id="result3">-</span></td>
