@@ -62,7 +62,7 @@
         <a class="nav-link" href="<?php echo route('home'); ?>">Central Lab</a>
       </li>
       <li id="home" class="nav-item">
-        <a class="nav-link" href="<?php echo route('CalculateRefine'); ?>">จำลองตีบวก</a>
+        <a class="nav-link" href="<?php echo route('calculateRefine'); ?>">จำลองตีบวก</a>
       </li>
       <?php /*<li id="contact" class="nav-item">
         <a class="nav-link" href="<?php echo route('contact'); ?>">แนะนำ/ติดต่อเรา</a>
