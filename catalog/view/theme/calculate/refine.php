@@ -103,7 +103,7 @@
 	</div>
 	<hr>
 	<div class="row mt-4">
-		<div class="col-3">
+		<div class="col-4">
 			count +7 : <span id="c7">0</span><br>
 			count +8 : <span id="c8">0</span><br>
 			count +9 : <span id="c9">0</span><br>
@@ -119,7 +119,7 @@
 			count +19 : <span id="c19">0</span><br>
 			count +20 : <span id="c20">0</span><br>
 		</div>
-		<div class="col-9">
+		<div class="col-8">
 			Enrich Oridecon <span id="EOridecion">0</span><br>
 			HD Oridecon <span id="HDOridecion">0</span>
 			<br><br>
@@ -181,13 +181,14 @@
 	        var result_refine = refine(rate);
 	        if(result_refine){
 	        	now += 1;
-	        	$('#c'+now).text(parseInt($('#c'+now).text())+1)
 	        }else{
 	        	now -=1;
 	        	if(now <= 7){
 	        		$('#fail').text(parseInt($('#fail').text())+1);
+	        		now = parseInt($('#start').val());
 	        	}
 	        }
+	        $('#c'+now).text(parseInt($('#c'+now).text())+1);
 	       if(now<=7){
 	       		$('#EOridecion').text(parseInt($('#EOridecion').text())+1);
 	       }else{
@@ -196,7 +197,7 @@
 	        $('#nowRefine').text(now);
 	        $('#roundRefine').text(roundRefine);
 	    }
-	    
+
 	    return setInterval(do_it, parseInt($('#delay').val()));
 	}
 	var intervalid;
