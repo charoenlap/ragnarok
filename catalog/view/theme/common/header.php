@@ -59,7 +59,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li id="home" class="nav-item">
-        <a class="nav-link" href="<?php echo route('home'); ?>">หน้าหลัก</a>
+        <a class="nav-link" href="<?php echo route('home'); ?>">Central Lab</a>
+      </li>
+      <li id="home" class="nav-item">
+        <a class="nav-link" href="<?php echo route('CalculateRefine'); ?>">จำลองตีบวก</a>
       </li>
       <?php /*<li id="contact" class="nav-item">
         <a class="nav-link" href="<?php echo route('contact'); ?>">แนะนำ/ติดต่อเรา</a>
