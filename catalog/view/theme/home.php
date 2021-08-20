@@ -3,6 +3,9 @@
 		<div class="col-12 col-md-6">
 			<div>ช่องใส่ตัวเลขเพื่อถอดรหัส</div>
 			<input type="text" value="" class="form-control" id="input" placeholder="">
+			<div class="text-right">
+				<input type="button" class="btn btn-primary" id="btn-cal" value="คำนวน">
+			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<table class="table table-bordered table-striped">
@@ -33,12 +36,15 @@
 	<div class="row mt-2">
 			<?php foreach($monsters AS $m){ ?>
 			<div class="col-12 col-sm-4 col-md-3 col-lg-2 mb-2">
-				<div class="card">
+				<div class="card" >
+
 					<div class="card-header">
 						<?php echo mb_strimwidth($m['iName'],0,12,'..'); ?>
 					</div>
 					<div class="card-body">
-						<div><img style="width:auto;height:100px;" src="<?php echo 'http://db.irowiki.org/image/monster/'.$m['ID'].'.png';?>"></div>
+						<div class="text-right">
+							<img src="<?php echo 'http://db.irowiki.org/image/monster/'.$m['ID'].'.png';?>">
+						</div>
 						<div><?php echo number_format($m['HP']); ?></div>
 						<div>DEF: <?php echo $m['DEF']; ?></div>
 						<div>ประเภท: <b><?php echo $m['Race']; ?></b></div>
@@ -62,15 +68,26 @@
 	}
 
 	console.log(dec2bin(125));
-        $(document).on('change','#input',function(){
-        	var str = pad(dec2bin($(this).val()),8).split('');
-        	$('#result1').text(str[0]);
-        	$('#result2').text(str[1]);
-        	$('#result3').text(str[2]);
-        	$('#result4').text(str[3]);
-        	$('#result5').text(str[4]);
-        	$('#result6').text(str[5]);
-        	$('#result7').text(str[6]);
-        	$('#result8').text(str[7]);
-        });
+	$(document).on('click','#btn-cal',function(e){
+		var str = pad(dec2bin($('#input').val()),8).split('');
+    	$('#result1').text(str[0]);
+    	$('#result2').text(str[1]);
+    	$('#result3').text(str[2]);
+    	$('#result4').text(str[3]);
+    	$('#result5').text(str[4]);
+    	$('#result6').text(str[5]);
+    	$('#result7').text(str[6]);
+    	$('#result8').text(str[7]);
+	});
+    $(document).on('change','#input',function(){
+    	var str = pad(dec2bin($(this).val()),8).split('');
+    	$('#result1').text(str[0]);
+    	$('#result2').text(str[1]);
+    	$('#result3').text(str[2]);
+    	$('#result4').text(str[3]);
+    	$('#result5').text(str[4]);
+    	$('#result6').text(str[5]);
+    	$('#result7').text(str[6]);
+    	$('#result8').text(str[7]);
+    });
 </script>
